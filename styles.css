@@ -5,7 +5,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
     background-color: aquamarine;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: auto;
 }
 .menu ul{
@@ -17,6 +17,34 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .menu li{
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.navbar .d-flex {
+    flex: 1;
+    justify-content: center; 
+}
+
+
+
+@media (min-width: 576px){
+    button{
+      display: none;
+    }
+    h1{
+        display: none;
+    }
+}
+@media (max-width: 576px){
+    .navbarlink{
+      display: none;
+    }
+   
+    
+}
+@media (max-width: 768px){
+    .navbar ul{
+        display: none;
+    }
+    
 }
