@@ -1,0 +1,22 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    justify-content: space-between;
+    margin: auto;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu li{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
